@@ -15,5 +15,5 @@ process build_shiny_app {
         """
         Rscript $baseDir/bin/shiny_app.R $i
         """
-
+}
 

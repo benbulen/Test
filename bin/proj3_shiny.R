@@ -6,7 +6,7 @@
 #
 #    http://shiny.rstudio.com/
 #
-
+install.packages('shiny')
 library(shiny)
 args = commandArgs(trailingOnly=TRUE)
 df <- read.csv(args[1], header=TRUE, row.names=1)

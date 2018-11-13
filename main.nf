@@ -1,6 +1,6 @@
 #! /usr/bin/env nextflow
 
-params.in_files = 'data/*.csv'
+params.in_files = 'home/bbulen/data/*.csv'
 
 in_abs = Channel.fromPath(params.in_files)
 

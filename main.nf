@@ -2,7 +2,7 @@
 
 params.in_files = 'data/*.csv'
 
-in_abs = Channel.fromPath( params.in_abs)
+in_abs = Channel.fromPath(params.in_files)
 
 process build_shiny_app {
 	container 'rocker/tidyverse'

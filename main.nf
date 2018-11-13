@@ -6,7 +6,7 @@ in_abs = Channel.fromPath(params.in_files)
 
 process build_shiny_app {
 	container 'rocker/tidyverse'
-	publishdir 'data', mode: 'copy'
+	publishDir 'data', mode: 'copy'
 
 	input;
  	file i from in_abs
